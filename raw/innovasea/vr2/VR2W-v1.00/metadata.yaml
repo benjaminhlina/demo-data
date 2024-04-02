@@ -57,18 +57,18 @@ citation.cff:
     title: "Intercept Telemetry of the Hudson River Striped Bass Resident Contingent: Migration and Homing Patterns"
     issue: 2
     volume: 86
-    year: 2023
+    year: 2024
 format: vrl
 size_bytes: 49513 
 recording:
   start: "2019-09-20T15:19:32Z"
-  end: "2004-11-15T08:02:28Z"
+  end: "2019-09-23T10:08:33Z"
 creation_date: 2019-09-20
 exporting_software:
   name: VUE
-  version: 1.00
+  version: 2.12.4
 instrument:
-  type: "VR2-069.0k-1.03-2-1431-C"
+  type: "VR2W-069.0k-1.03-2-1431-C"
   frequency_khz: 69
   vendor: Vemco
   firmware_version: 1.03
