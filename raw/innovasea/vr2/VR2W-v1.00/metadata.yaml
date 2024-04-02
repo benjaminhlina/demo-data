@@ -61,34 +61,21 @@ citation.cff:
 format: vrl
 size_bytes: 49513 
 recording:
-  start: "2019-09-20T15:19:32Z"
-  end: "2019-09-23T10:08:33Z"
+  start: "2019-09-20T19:19:32Z"
+  end: "2019-09-23T14:08:33Z"
 creation_date: 2019-09-20
 exporting_software:
   name: VUE
   version: 2.12.4
 instrument:
-  type: "VR2W-069.0k-1.03-2-1431-C"
+  type: "VR2W-69kHz"
   frequency_khz: 69
   vendor: Vemco
-  firmware_version: 1.03
-  code_map:
-    custom:
-      - type: "256 Pinger"
-        sync: 401.2
-        bin: 22.3
-      - type: "4K Pinger"
-        sync: 380.0
-        bin: 20.0
-      - type: "256 Sensor"
-        sync: 360.0
-        bin: 20.0
-      - type: "256 Pinger"
-        sync: 340
-        bin: 20.0
-  serial_number: 3145
+  firmware_version: 5.0.1
+  code_map: MAP-114
+  serial_number: 132365
 records:
   transmitter:
-    - type: "4K Pinger"
-      n_detected: 6
-      n_detections: 827
+    - type: "V13"
+      n_detected: 23
+      n_detections: 2918
