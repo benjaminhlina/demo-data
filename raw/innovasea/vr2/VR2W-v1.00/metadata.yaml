@@ -1,0 +1,94 @@
+name: "VR2W_132365_20190923_1.vrl"
+file_type: raw detections
+poc:
+  name: "Benjamin L. Hlina"
+  contact: "benjamin.hlina@gmail.com"
+citation.cff: 
+  cff-version: 1.2.0 # https://citation-file-format.github.io/
+  authors:
+  - family-names: "Hlina"
+    given-names: "Benjamin L."
+    orcid: "https://orcid.org/0000-0002-4178-4900"
+  - family-names: "Glassman"
+    given-names: "Daniel M."
+  - family-names: "Lédée"
+    given-names: "Elodie J. I."
+  - family-names: "Nowell"
+    given-names: "Liane B."   
+  - family-names: "Claussen"
+    given-names: "Julie E."  
+  - family-names: "Philipp"
+    given-names: "David P."
+  - family-names: "Marsden"
+    given-names: "J. Ellen"     
+  - family-names: "Power"
+    given-names: "Michael"      
+  - family-names: "Cooke"
+    given-names: "Steven J."
+  title: "VR2W_132365_20190923_1.vrl"
+  message: "Please cite this dataset using the metadata from 'preferred-citation'."
+  preferred-citation:
+    type: article
+    authors:
+  - family-names: "Hlina"
+    given-names: "Benjamin L."
+    orcid: "https://orcid.org/0000-0002-4178-4900"
+  - family-names: "Glassman"
+    given-names: "Daniel M."
+  - family-names: "Lédée"
+    given-names: "Elodie J. I."
+  - family-names: "Nowell"
+    given-names: "Liane B."   
+  - family-names: "Claussen"
+    given-names: "Julie E."  
+  - family-names: "Philipp"
+    given-names: "David P."
+  - family-names: "Marsden"
+    given-names: "J. Ellen"     
+  - family-names: "Power"
+    given-names: "Michael"      
+  - family-names: "Cooke"
+    given-names: "Steven J."
+    doi: "10.1007/s00027-024-01052-3"
+    journal: "Aquatic Sciences"
+    month: 2
+    start: 1 # First page number
+    end: 14 # Last page number
+    title: "Intercept Telemetry of the Hudson River Striped Bass Resident Contingent: Migration and Homing Patterns"
+    issue: 2
+    volume: 86
+    year: 2023
+format: vrl
+size_bytes: 49513 
+recording:
+  start: "2019-09-20T15:19:32Z"
+  end: "2004-11-15T08:02:28Z"
+creation_date: 2019-09-20
+exporting_software:
+  name: VUE
+  version: 1.00
+instrument:
+  type: "VR2-069.0k-1.03-2-1431-C"
+  frequency_khz: 69
+  vendor: Vemco
+  firmware_version: 1.03
+  code_map:
+    custom:
+      - type: "256 Pinger"
+        sync: 401.2
+        bin: 22.3
+      - type: "4K Pinger"
+        sync: 380.0
+        bin: 20.0
+      - type: "256 Sensor"
+        sync: 360.0
+        bin: 20.0
+      - type: "256 Pinger"
+        sync: 340
+        bin: 20.0
+  serial_number: 3145
+records:
+  transmitter:
+    - type: "4K Pinger"
+      n_detected: 6
+      n_detections: 827
